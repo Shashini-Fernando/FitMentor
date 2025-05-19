@@ -1,0 +1,64 @@
+FitMentor
+FitMentor is a web application that helps users design personalized workout and nutrition plans based on their fitness goals, level, and dietary preferences, with a question-and-answer feature.
+Features
+
+Interactive UI: Enhanced Streamlit interface with sidebar navigation and improved layout.
+Personalized Plans: Suggests workouts and meals based on user inputs.
+Q&A System: Allows users to select from predefined questions with tailored answers.
+Mock Data: Generates workout and meal options using a custom data generator.
+
+Prerequisites
+
+Python 3.8+
+Git
+
+Installation
+
+Clone the repository:
+git clone https://github.com/your-username/fit-mentor.git
+cd fit-mentor
+
+
+Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
+Install dependencies:
+pip install -r requirements.txt
+
+
+
+Usage
+
+Run the Streamlit app:
+streamlit run app.py
+
+
+Open your browser to http://localhost:8501.
+
+Use the sidebar to enter your profile (goal, level, diet) and save it.
+
+Select a question from the main panel and get an answer, or view your personalized plan.
+
+
+Project Structure
+
+app.py: Main Streamlit app with Q&A and interface logic.
+generator.py: Generates mock workout and meal data.
+requirements.txt: Lists project dependencies.
+
+Dependencies
+
+streamlit
+pandas
+
+Notes
+
+Ensure sufficient disk space before installing dependencies.
+The generator.py creates mock data; integrate with fitness APIs for real-world use.
+
+Video Demonstration
+A demo video will be uploaded to YouTube by 11/04/2025.
+License
+MIT License
